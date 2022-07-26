@@ -1,4 +1,4 @@
-# archfi
+# ArchLinux_install
 只需一个简单的 bash 脚本向导，即可在官方 Arch Linux 安装介质上启动后安装 Arch Linux。
 使用此脚本，您可以使用两个简单的终端命令安装 Arch Linux。
 此向导用于安装最少的软件包（Base、引导加载程序和可选的 archdi）。
