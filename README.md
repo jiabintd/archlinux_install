@@ -13,22 +13,22 @@
 然后确保您在Arch iso上有互联网连接。如果你使用的是无线链接[`iwctl`](https://wiki.archlinux.org/index.php/Iwd#iwctl) 命令可能对您有用，您还可以从 Arch Linux 指南中阅读 [网络配置](https://wiki.archlinux.org/index.php/Network_configuration) 以获取更详细的说明。
 
 然后从命令行下载脚本：
-```
+```bash
     curl -LO archfi.sf.net/archfi
 ```
 如果 SourceForge 已关闭，请改用以下命令：
-```
+```bash
     curl -LO matmoul.github.io/archfi
 ```
 最后，启动脚本：
-```
+```bash
     sh archfi
 ```
 然后按照屏幕上的说明完成操作。
 如果您需要额外的帮助，请访问提供的视频播放列表并按照我的示例进行操作。
 
 ## 更多自定义安装
-```
+```bash
     sh archfi -cpl {URL of your custom package list}
 ```
 可以在示例文件夹中找到示例自定义包列表文件。
@@ -36,10 +36,10 @@
 ## 对于开发人员
 
 您可以使用以下命令测试脚本：
-```
+```bash
     sh archfi -t {githubusername} {branchname}
 ```
 例：
-```
+```bash
     sh archfi -t matmoul master
 ```
