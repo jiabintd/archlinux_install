@@ -1,0 +1,19 @@
+# This file is a sample of a custom package list that is available at the pacstrap step.
+# 此文件是pacstrap步骤中可用的自定义包列表的示例。
+# Each line is a package but empty line and commented line is supported.
+# 每一行都是一个包，但支持空行和注释行。
+# How to use :
+# 如何使用：
+# Store your own file on a web server
+# 在web服务器上存储您自己的文件
+# Launch archfi with :
+# 使用启动archfi
+# archfi -cpl url_of_the_file
+#
+# Some packages :
+# 一些软件包
+
+neofetch
+nmon
+lshw
+# base-devel
