@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Arch Linux快速安装（archlinux_install）
+# --------------------------------
+# 作者    : real
+#             https://github.com/jiabintd/archlinux_install
+
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
